@@ -1,1 +1,1 @@
-public class Hello { public void say() { System.out.println("hello"); } }
+public class Hello { String msg = "hello"; public void say() { System.out.println(msg); } }
