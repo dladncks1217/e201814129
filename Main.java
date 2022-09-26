@@ -1,1 +1,1 @@
-public class Hello { String msg = "hello"; public Hello(String msg) { this.msg = msg; } public void say() { System.out.println(msg); } }
+public class Main { public static void main(String[] args) { Hello hello = new Hello("hello world"); hello.say(); } }
